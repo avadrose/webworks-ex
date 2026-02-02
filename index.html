@@ -2,10 +2,26 @@
 <html>
   <head>
     <meta charset="utf-8" />
-    <title>Web Works Test Page</title>
+    <title>DevTools Form Practice</title>
   </head>
   <body>
-    <h1>It works!</h1>
-    <p>This page is being served using python http.server. @avadrose</p>
+    <h1>DevTools Form Practice</h1>
+
+    <h2>GET Form</h2>
+    <form method="GET" action="/">
+      <label>
+        Name:
+        <input name="name" />
+      </label>
+      <br />
+      <label>
+        Favorite Color:
+        <input name="color" />
+      </label>
+      <br />
+      <button type="submit">Submit (GET)</button>
+    </form>
+
+    <p>Open Chrome DevTools → Network, then submit the form.</p>
   </body>
 </html>
